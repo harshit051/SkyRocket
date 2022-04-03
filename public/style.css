@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+}
+
+body {
+  background-color: #f6f6f6;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+.header {
+  background-color: #f6f6f6;
+  margin: auto -16px;
+  padding: 16px 16px;
+  box-shadow: 0 0 10px 0 rgba(231, 229, 235, 0.959);
+}
+
+.header h1 {
+  color: #161d6f;
+  font-family: "Dancing Script", cursive;
+  font-weight: 200;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  bottom: 0;
+  width: 97%;
+  height: 2.5rem;
+  justify-content: center;
+}
+
+.footer p {
+  color: #161d6f;
+}
+
+.SkyRocketLogo {
+  margin-right: 30px;
+  width: 47px;
+  height: 43px;
+}
+
+.LogoLink {
+  text-decoration: none;
+  width: 100%;
+}
+
+.LogoLink span {
+  display: inline-flex;
+  width: 100%;
+}
+.LogoLink:hover {
+  text-decoration: none;
+}
+
+.Link1 {
+  width: 100%;
+}
+
+.LogoImg {
+  object-fit: contain;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.formAndImageContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.Form {
+  margin-top: 100px;
+  padding: 16px;
+}
+.Form Button {
+  margin-top: 20px;
+  border-radius: 24px;
+}
+
+.Form h1 {
+  color: #161d6f;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.Form hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.Form hr:after {
+  background: #fff;
+  content: "or";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.textField {
+  margin: 5px 30px 5px 0px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 0px;
+  position: absolute;
+  left: 10px;
+  bottom: 6px;
+  right: inherit;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  display: block;
+
+  margin: 1px 0px 5px 70px;
+  width: 0%;
+  border-color: transparent;
+  background-color: #fff;
+  position: relative;
+}
+
+.buttonText {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.googleImg {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: #fff;
+}
+
+
+
+.FormR {
+  margin-top: 10px;
+  padding: 16px;
+}
+.FormR Button {
+  margin-top: 20px;
+  border-radius: 24px;
+}
+
+.FormR h1 {
+  color: #161d6f;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.FormR hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.FormR hr:after {
+  background: #fff;
+  content: "or";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
